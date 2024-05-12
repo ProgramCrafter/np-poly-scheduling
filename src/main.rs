@@ -34,6 +34,7 @@ impl Edge {
 
 
 #[derive(Debug)]
+#[allow(dead_code)]
 struct InputCfg<const VERTS: usize> {
     adjacent: [BTreeMap<usize, usize>; VERTS],
     max_degree: usize,
